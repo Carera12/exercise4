@@ -10,7 +10,7 @@ namespace exercise4
     {
         public int info;
         public node next;
-        public  node(int i, pop p)
+        public  node(int i, node p)
         {
             info = info;
             next = next;
@@ -22,6 +22,13 @@ namespace exercise4
         public Stack()
         {
             top = null;
+        }
+        bool empty()
+        {
+            if (top == null)
+                return true;
+            else
+                return false;
         }
     }
     class Program
