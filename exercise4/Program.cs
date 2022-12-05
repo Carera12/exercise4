@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace exercise4
 {
-    internal class Program
+    class pop
+    {
+        public int info;
+        public pop next;
+        
+    }
+    class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
