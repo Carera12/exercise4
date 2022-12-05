@@ -10,7 +10,7 @@ namespace exercise4
     {
         public int info;
         public node next;
-        public  node(int i, node p)
+        public node(int i, node p)
         {
             info = info;
             next = next;
@@ -19,8 +19,10 @@ namespace exercise4
     class Stack
     {
         node top;
+        public int[] Rara = new int[83];
         public Stack()
         {
+            
             top = null;
         }
         bool empty()
@@ -44,11 +46,11 @@ namespace exercise4
             Console.WriteLine("\n the poped elements is: " + top.info);
             top = top.next;
         }
-    }
-    class Program
-    {
+        
+
         static void Main(string[] args)
         {
+            
 
         }
     }
