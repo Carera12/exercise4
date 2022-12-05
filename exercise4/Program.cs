@@ -39,6 +39,11 @@ namespace exercise4
             top = rera;
             Console.WriteLine("\n" + element + "pushed");
         }
+        public void pop()
+        {
+            Console.WriteLine("\n the poped elements is: " + top.info);
+            top = top.next;
+        }
     }
     class Program
     {
