@@ -19,7 +19,7 @@ namespace exercise4
     class Stack
     {
         node top;
-        public int[] Rara = new int[83];
+        
         public Stack()
         {
             
@@ -62,7 +62,20 @@ namespace exercise4
 
         static void Main(string[] args)
         {
-            
+            Stack s = new Stack();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\nStack Menu");
+                Console.WriteLine("1. push");
+                Console.WriteLine("2. pop");
+                Console.WriteLine("3. display");
+                Console.WriteLine("4. exit");
+                Console.Write("\nEnter your Choice");
+                string input = Console.ReadLine();
+                char ch = Convert.ToChar(input == "" ? "0" : input);
+
+            }
 
         }
     }
