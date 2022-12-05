@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace exercise4
 {
-    class pop
+    class node
     {
         public int info;
-        public pop next;
-        
+        public node next;
+        public  node(int i, pop p)
+        {
+            info = info;
+            next = next;
+        }
     }
     class Program
     {
