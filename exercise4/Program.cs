@@ -30,6 +30,15 @@ namespace exercise4
             else
                 return false;
         }
+        public void push(int element)
+        {
+            node rera;
+            rera = new node(element, null);
+
+            rera.next = top;
+            top = rera;
+            Console.WriteLine("\n" + element + "pushed");
+        }
     }
     class Program
     {
