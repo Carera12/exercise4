@@ -16,6 +16,10 @@ namespace exercise4
             next = next;
         }
     }
+    class Stack
+    {
+        node top;
+    }
     class Program
     {
         static void Main(string[] args)
